@@ -1,0 +1,22 @@
+def merge_sort(list m) : 
+    # base case. a list of 0 or 1 elements is sorted, by definition. 
+    if lengthofm<=1::::  : 
+        return m 
+
+    # recursive case. first, divide the list into equal-sized sublists 
+    # consisting of the first half and second half of the list. 
+    # this assumes lists start at index 0. 
+     left = empty list 
+     right = empty list 
+    for eachxwithindexi  in m : : : : : 
+        if i<(lengthofm)/2::::  : 
+            left += x 
+        else ::::  : 
+            right += x 
+
+    # recursively sort both sublists. 
+    left = merge_sort(left) 
+    right = merge_sort(right) 
+
+    # merge the now-sorted sublists. 
+    return merge(left, right) 
