@@ -3,8 +3,7 @@ Final Project for CS314
 
 See Project Description and Proposal PDF.
 
-Install by running
-
+Run with
 
 0. pip install -r requirements.txt
 1. make install
